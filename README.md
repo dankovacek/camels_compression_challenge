@@ -22,6 +22,13 @@ The last five years of research (as of October 2023) have seen ML models reach s
 
 Model performance is not commonly expressed in total description length (TDL), but it could be very useful as a standard metric.  “A model that compresses well generalizes well” [4].  
 
+## Goals
+
+1. Better understand links between data compression, prediction, & physical processes.  
+2. Engage participants from diverse disciplines.  
+3. Encourage new approaches to hydrological modeling.  
+
+
 ## Rules
 
 ### General
@@ -40,6 +47,7 @@ The final submission executable must be able to exactly reproduce the original d
 ### Data
 
 The dataset to be used for compression is contained in the data folder of this repository.  The data corresponds to version 1.2 of the open-access published Camels dataset [8], [downloaded from GDEX](https://ral.ucar.edu/solutions/products/camels) on October 26, 2023.
+
 
 ## References
 
