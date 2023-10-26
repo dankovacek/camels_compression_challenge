@@ -24,7 +24,7 @@ The last five years of research (as of October 2023) have seen ML models reach s
 
 Model performance is not commonly expressed in total description length (TDL), but it could be very useful as a standard metric.  “A model that compresses well generalizes well” [4].  
 
-The Camels Compression Challenge is motivated by the work of Marcus Hutter in Artificial Intelligence [9], and the efforts of Steven Weijs to translate the compression problem to hydrological time series data [2, 3].
+The Camels Compression Challenge is motivated by the work of Marcus Hutter in Artificial Intelligence [9], and the efforts led by Steven Weijs to translate the compression problem to hydrological time series data [2, 3].
 
 ## Goals
 
