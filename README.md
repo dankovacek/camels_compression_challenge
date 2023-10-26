@@ -52,7 +52,6 @@ The final submission executable must be able to exactly reproduce the original d
 
 The dataset to be used for compression is contained in the data folder of this repository.  The data corresponds to version 1.2 of the open-access published Camels dataset [8], [downloaded from GDEX](https://ral.ucar.edu/solutions/products/camels) on October 26, 2023.
 
-
 ## References
 
 1.  Burnash, Robert JC, and R. Larry Ferral. A generalized streamflow simulation system: Conceptual modeling for digital computers. US Department of Commerce, National Weather Service, and State of California, Department of Water Resources, 1973.  
@@ -67,12 +66,12 @@ The dataset to be used for compression is contained in the data folder of this r
 
 6.  Vrugt, Jasper A., et al. "Application of stochastic parameter optimization to the Sacramento Soil Moisture Accounting model." Journal of Hydrology 325.1-4 (2006): 288-307.  
 
-7.  Kratzert, Frederik, et al. "NeuralHydrology---A Python library for Deep Learning research in hydrology." Journal of Open Source Software 7.71 (2022): 4050.
+7.  Kratzert, Frederik, et al. "NeuralHydrology---A Python library for Deep Learning research in hydrology." Journal of Open Source Software 7.71 (2022): 4050.  
 
-8.  Addor, Nans, et al. "The CAMELS data set: catchment attributes and meteorology for large-sample studies." Hydrology and Earth System Sciences 21.10 (2017): 5293-5313.  
+8.  Newman, A. J., Clark, M. P., Sampson, K., Wood, A., Hay, L. E., Bock, A., Viger, R., Blodgett, D., Brekke, L., Arnold, J. R., Hopson, T. and Duan, Q.: Development of a large-sample watershed-scale hydrometeorological dataset for the contiguous USA: dataset characteristics and assessment of regional variability in hydrologic model performance, Hydrology and Earth System Sciences, 19, 209–223, doi:10.5194/hess-19-209-2015, 2015.  
 
-9. Legg, Shane, and Marcus Hutter. "Universal intelligence: A definition of machine intelligence." Minds and machines 17 (2007): 391-444.
- 
+9. Legg, Shane, and Marcus Hutter. "Universal intelligence: A definition of machine intelligence." Minds and machines 17 (2007): 391-444.  
+
 
 
 
