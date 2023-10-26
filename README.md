@@ -24,6 +24,8 @@ The last five years of research (as of October 2023) have seen ML models reach s
 
 Model performance is not commonly expressed in total description length (TDL), but it could be very useful as a standard metric.  “A model that compresses well generalizes well” [4].  
 
+The Camels Compression Challenge is motivated by the work of Marcus Hutter in Artificial Intelligence [9], and the efforts of Steven Weijs to translate the compression problem to hydrological time series data [2, 3].
+
 ## Goals
 
 1. Better understand links between data compression, prediction, & physical processes.  
@@ -68,6 +70,8 @@ The dataset to be used for compression is contained in the data folder of this r
 7.  Kratzert, Frederik, et al. "NeuralHydrology---A Python library for Deep Learning research in hydrology." Journal of Open Source Software 7.71 (2022): 4050.
 
 8.  Addor, Nans, et al. "The CAMELS data set: catchment attributes and meteorology for large-sample studies." Hydrology and Earth System Sciences 21.10 (2017): 5293-5313.  
+
+9. Legg, Shane, and Marcus Hutter. "Universal intelligence: A definition of machine intelligence." Minds and machines 17 (2007): 391-444.
  
 
 
