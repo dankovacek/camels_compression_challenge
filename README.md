@@ -1,9 +1,11 @@
-# camels_compression_challenge
+# Camels Compression Challenge
+
+![Camels Compression Challenge Logo - a sequence of objects representing a progression from a finely detailed camelid to an abstract geometric object.](images/CC_Challenge_Logo.png)
 An open challenge for hydrological time series data compression.
 
 ## Leaderboard
 
-| Date | Team | Score |
+| Date | Name / Team | Score |
 |---|---|---|
 | - | - | 99 |
 
