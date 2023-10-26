@@ -22,9 +22,11 @@ The last five years of research (as of October 2023) have seen ML models reach s
 3.  Source code for the [Neuralhydrology](https://github.com/neuralhydrology) [7] is a Deep Learning neural network Python library uses several external libraries (i.e. PyTorch), and employs a neural network with O(105) weights (30, 20, 64 neurons per layer in embedding network hidden layers for static and dynamic inputs. (Need to verify!) Input data includes meteorological forcings & static basin attributes. 
 
 
-Model performance is not commonly expressed in total description length (TDL), but it could be very useful as a standard metric.  “A model that compresses well generalizes well” [4].  
+The Camels Compression Challenge is motivated by the work of Marcus Hutter in Artificial Intelligence [9], and the efforts led by Steven Weijs to translate the compression problem to hydrological time series data and hydrological modelling [2, 3].
 
-The Camels Compression Challenge is motivated by the work of Marcus Hutter in Artificial Intelligence [9], and the efforts led by Steven Weijs to translate the compression problem to hydrological time series data [2, 3].
+TDL refers to the smallest computer program that can produce a specific output sequence. In the context of hydrological time series data, the TDL refers to the shortest program that can produce an observed time series, plus a time series of residuals needed to recreate the original time series to its full precision (lossless compression).  The length of the program is related to the model complexity, and the entropy of the residuals represents the amount of information uncaptured by the model.  A perfect model would leave no uncertainty in the residuals series (i.e. a sequence of all zeros), and an ideal model under incomplete information would yield a residual series with no structure remaining (maximum entropy distribution of residuals).  
+
+Hutter argues in [9] that there are an infinite number of programs that can produce a given output sequence, but the shortest program may not be computable.  Model performance is not commonly expressed in total description length (TDL), but it could be very useful as a standard metric, since “a model that compresses well generalizes well” [4].  
 
 ## Goals
 
