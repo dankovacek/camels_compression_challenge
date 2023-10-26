@@ -15,7 +15,7 @@ The score is the compression ratio (CR) of the test set. The lower the better.
 
 The last five years of research (as of October 2023) have seen ML models reach state of the art in rainfall-runoff modelling.  Physics based model research will continue to yield insights into underlying physical processes in hydrological processes.  We are not aware of any approaches to hydrological modelling that are *reducing in complexity*.
 
-1.  1979: Sacramento Soil Moisture Accounting Model (SAC-SMA) [3] is about 700 lines of Fortran code in three files, see [here](https://github.com/Upstream-Tech/SACSMA-SNOW17/tree/master/sacsma_source_original/sac).  Conceptual Rainfall Runoff (CRR) models typically use O(10) parameters to empirically represent water storages and interconnectivity. [6]  
+1.  1973: Sacramento Soil Moisture Accounting Model (SAC-SMA) [1] is about 700 lines of Fortran code in three files, see [here](https://github.com/Upstream-Tech/SACSMA-SNOW17/tree/master/sacsma_source_original/sac).  Conceptual Rainfall Runoff (CRR) models typically use O(10) parameters to empirically represent water storages and interconnectivity. [6]  
 
 2.  The [Raven hydrological modeling framework](http://raven.uwaterloo.ca/Main.html) [5] is in active development.  Its source code is < 1 MB (in compressed form).  Its architecture allows for selective inclusion of process representation (evapotranspiration, snowmelt, soil moisture, etc.), and individual calibration weight files for sub-basins (HRUs) in the order of 10-100kB.  As such, predicting at many locations could have many sub-basin calibration files.  Input data includes elevation, land cover, soil, meteorological forcings, etc.
 
