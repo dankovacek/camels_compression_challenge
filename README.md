@@ -1,7 +1,7 @@
 # Camels Compression Challenge
 
 ![Camels Compression Challenge Logo - a sequence of objects representing a progression from a finely detailed camelid to an abstract geometric object.](images/CC_Challenge_Logo.png)
-An open challenge for hydrological time series data compression.
+An open challenge for hydrometeorological time series data compression.
 
 ## Leaderboard
 
@@ -19,12 +19,15 @@ The last five years of research (as of October 2023) have seen ML models reach s
 
 2.  The [Raven hydrological modeling framework](http://raven.uwaterloo.ca/Main.html) [5] is in active development.  Its source code is < 1 MB (in compressed form).  Its architecture allows for selective inclusion of process representation (evapotranspiration, snowmelt, soil moisture, etc.), and individual calibration weight files for sub-basins (HRUs) in the order of 10-100kB.  As such, predicting at many locations could have many sub-basin calibration files.  Input data includes elevation, land cover, soil, meteorological forcings, etc.
 
-3.  Source code for the [Neuralhydrology](https://github.com/neuralhydrology) [7] is a Deep Learning neural network Python library uses several external libraries (i.e. PyTorch), and employs a neural network with O(105) weights (30, 20, 64 neurons per layer in embedding network hidden layers for static and dynamic inputs. (Need to verify!) Input data includes meteorological forcings & static basin attributes. 
-
+3.  Source code for the [Neuralhydrology](https://github.com/neuralhydrology) [7] is a Deep Learning neural network Python library uses several external libraries (i.e. PyTorch), and employs a neural network with O($10^5$) weights (30, 20, 64 neurons per layer in embedding network hidden layers for static and dynamic inputs. (Need to verify!) Input data includes meteorological forcings & static basin attributes. 
 
 The Camels Compression Challenge is motivated by the work of Marcus Hutter in Artificial Intelligence [9], and the efforts led by Steven Weijs to translate the compression problem to hydrological time series data and hydrological modelling [2, 3].
 
-TDL refers to the smallest computer program that can produce a specific output sequence. In the context of hydrological time series data, the TDL refers to the shortest program that can produce an observed time series, plus a time series of residuals needed to recreate the original time series to its full precision (lossless compression).  The length of the program is related to the model complexity, and the entropy of the residuals represents the amount of information uncaptured by the model.  A perfect model would leave no uncertainty in the residuals series (i.e. a sequence of all zeros), and an ideal model under incomplete information would yield a residual series with no structure remaining (maximum entropy distribution of residuals).  
+### Total Description Length
+
+TDL refers to the smallest computer program that can produce a specific output sequence.  TDL is the shortest program that can produce a sequence of observations, including any additional information to recreate the original observations to their full precision, such as a time series of residuals.  
+
+A perfectly random dataset has no structure and cannot be compressed, so the shortest "program" would simply be the original sequence of observations.  Any program we write has no explanatory power about the observations, resulting in a compression greater than 1 since we must add the size of the program to the original observed series.  In contrast, a dataset is compressible if we can develop a program (model) that yields a residual series with lower entropy than the original observed series.  The entropy of the residuals represents model performance, and adding the program length penalizes model complexity. 
 
 Hutter argues in [9] that there are an infinite number of programs that can produce a given output sequence, but the shortest program may not be computable.  Model performance is not commonly expressed in total description length (TDL), but it could be very useful as a standard metric, since “a model that compresses well generalizes well” [4].  
 
