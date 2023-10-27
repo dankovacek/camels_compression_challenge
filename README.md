@@ -20,7 +20,8 @@ An open challenge for hydrometeorological time series data compression.
 ## About 
 
 Hydrological model performance is not commonly expressed in terms of description length (DL), but it could be informative as a metric to compare distinct model architectures.  “A model that compresses well generalizes well” [4].
-We present an open challenge, similar to the [Human Knowledge Compression Contest](http://prize.hutter1.net/) posed by Marcus Hutter, to maximize the compression of the Camels dataset [8], a widely used hydrometeorological time series dataset.
+
+We present an open challenge, similar to the [Human Knowledge Compression Contest](http://prize.hutter1.net/) posed by Marcus Hutter, to maximize the compression of the Camels dataset [8], a widely used hydrometeorological time series dataset. The challenge is to compress the Camels dataset [8] to the smallest size possible, while still being able to completely reproduce the dataset to its original precision
 
 
 ## Goals
@@ -43,8 +44,6 @@ The Camels Compression Challenge is motivated by the work of Marcus Hutter in Ar
 
 
 ## Materials 
-
-The challenge is to compress the Camels dataset [8] to the smallest size possible, while still being able to exactly reproduce the original dataset.  
 
 This open-access repository has been created to house the rules and the data to be used in the competition.  
 1. The specific version of the Camels dataset to compress, including:  
