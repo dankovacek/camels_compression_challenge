@@ -31,7 +31,7 @@ We present an open challenge, similar to the [Human Knowledge Compression Contes
 
 ## Motivation
 
-The last five years of research (as of October 2023) have seen ML models reach state of the art in rainfall-runoff modelling.  Physics based model research will continue to yield insights into underlying physical processes in hydrological processes.  We are not aware of any approaches to hydrological modelling that are *reducing in complexity*.
+The last five years of research (as of October 2023) have seen ML models reach state of the art in rainfall-runoff modelling.  Physics based model research will continue to yield insights into underlying physical processes to improve hydrological modelling.  We are not aware of any approaches to hydrological modelling that are *reducing in complexity*.
 
 1.  1973: Sacramento Soil Moisture Accounting Model (SAC-SMA) [1] is about 700 lines of Fortran code in three files, see [here](https://github.com/Upstream-Tech/SACSMA-SNOW17/tree/master/sacsma_source_original/sac).  Conceptual Rainfall Runoff (CRR) models typically use O(10) parameters to empirically represent water storages and interconnectivity. [6]  
 
