@@ -10,11 +10,11 @@ An open challenge for hydrometeorological time series data compression.
 
 ## Leaderboard
 
-| Date | Name / Team | Score |
+| Date | Name / Team | Score* |
 |---|---|---|
 | - | - | 99 |
 
-The score is the compression ratio (CR) of the test set. The lower the better.
+>*The score is the compression ratio (CR) of the test set ($100 \times \frac{\text{compressed size}}{\text{original size}}$). The lower the better.
 
 
 ## About 
