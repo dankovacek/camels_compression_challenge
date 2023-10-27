@@ -3,9 +3,9 @@
 ![Camels Compression Challenge Logo - a sequence of objects representing a progression from a finely detailed camelid to an abstract geometric object.](images/CC_Challenge_Logo.png)
 An open challenge for hydrometeorological time series data compression.
 
->`It is vain to do with more what can be done with less` -*William of Ockham*
+>`It is vain to do with more what can be done with less.` -*William of Ockham*
 
-> `Another approach for a given problem is to try to restate it in just as many different forms as you can` -*Claude Shannon*
+> `Another approach for a given problem is to try to restate it in just as many different forms as you can.` -*Claude Shannon*
 
 
 ## Leaderboard
